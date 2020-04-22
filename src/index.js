@@ -8,7 +8,9 @@ async function main() {
     const command = args[0];
     const commandArgs = args.splice(1);
 
-    const spawnOptions = {}; // TODO cwd
+    const spawnOptions = {
+        cwd: process.cwd()
+    };
 
     let config = {};
     if (fs.existsSync(".newterm.js")) {
