@@ -1,6 +1,6 @@
 {
   "name": "newterm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "execute command in new terminal",
   "bin": "src/index.js",
   "main": "src/index.js",
