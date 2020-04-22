@@ -1,0 +1,12 @@
+{
+  "name": "newterm",
+  "version": "0.1.0",
+  "description": "execute command in new terminal",
+  "bin": "src/index.js",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "command-exists": "^1.2.2",
+    "tmp": "0.0.31"
+  }
+}
